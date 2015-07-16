@@ -7,7 +7,7 @@ A Node.Js wrapper for https://github.com/cloudatcost/api
 #Examples
 ##Create the Object
 
-```node.js
+```js
 var API = require('./c@cAPI.js');
 
 var api = new API(apikey, loginEmail);
@@ -15,7 +15,7 @@ var api = new API(apikey, loginEmail);
 
 ##List servers
 
-```node.js
+```js
 api.listServers(function(err, res) {
     if (!err) {
         console.log(res);
