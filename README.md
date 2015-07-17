@@ -1,9 +1,11 @@
 #c@cApi
 
-A Node.Js wrapper for https://github.com/cloudatcost/api
+A Node.Js wrapper for [CloudAtCost API](https://github.com/cloudatcost/api) 
 
 #Installation
 
+#License
+This software is under [MPL 2.0 License](http://opensource.org/licenses/MPL-2.0) 
 #Examples
 Every function returns with a callback two parameters: `error` and `result`.
 ###Create the Object
