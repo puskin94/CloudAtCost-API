@@ -5,6 +5,9 @@ A Node.Js wrapper for [CloudAtCost API](https://github.com/cloudatcost/api)
 #Installation
 `npm install cacapi`
 
+#C@C Configuration
+go to https://panel.cloudatcost.com/ -> Settings -> API Access IP: <insert your IP>
+
 #Examples
 Every function returns with a callback two parameters: `error` and `result`.
 
