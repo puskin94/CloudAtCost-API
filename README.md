@@ -7,7 +7,7 @@ module `request`
 
 #Examples
 Every function returns with a callback two parameters: `error` and `result`.
-###Create the Object
+
 
 ```js
 var API = require('./c@cAPI.js');
