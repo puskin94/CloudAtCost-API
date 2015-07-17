@@ -10,9 +10,9 @@ Every function returns with a callback two parameters: `error` and `result`.
 
 
 ```js
-var API = require('./c@cAPI.js');
+var cAcAPI = require('./cAcAPI.js');
 
-var api = new API(apikey, loginEmail);
+var api = new cAcAPI(apikey, loginEmail);
 ```
 
 ###List servers
