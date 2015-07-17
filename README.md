@@ -2,17 +2,17 @@
 
 A Node.Js wrapper for [CloudAtCost API](https://github.com/cloudatcost/api) 
 
-#Dependencies
-module `request`
+#Installation
+`npm install cacapi`
 
 #Examples
 Every function returns with a callback two parameters: `error` and `result`.
 
 
 ```js
-var cAcAPI = require('./cAcAPI.js');
+var Cacapi = require('cacapi');
 
-var api = new cAcAPI(apikey, loginEmail);
+var api = new Cacapi(apikey, loginEmail);
 ```
 
 ###List servers
