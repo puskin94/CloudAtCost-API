@@ -126,4 +126,4 @@ api.resources(function(err, res) {
 
 
 #License
-This software is under [MPL 2.0 License](http://opensource.org/licenses/MPL-2.0) 
+This software is under [ISC](http://opensource.org/licenses/ISC) 
