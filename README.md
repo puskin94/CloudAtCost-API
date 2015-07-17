@@ -1,4 +1,4 @@
-#c@cApi
+#Cacapi
 
 A Node.Js wrapper for [CloudAtCost API](https://github.com/cloudatcost/api) 
 
