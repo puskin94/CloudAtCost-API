@@ -2,10 +2,9 @@
 
 A Node.Js wrapper for [CloudAtCost API](https://github.com/cloudatcost/api) 
 
-#Installation
+#Dependencies
+module `request`
 
-#License
-This software is under [MPL 2.0 License](http://opensource.org/licenses/MPL-2.0) 
 #Examples
 Every function returns with a callback two parameters: `error` and `result`.
 ###Create the Object
@@ -29,8 +28,11 @@ api.listServers(function(err, res) {
 
 ```js
 api.listTemplates(function(err, res) {
-    
+    console.log(res["status"]);
+    // if the result has been processed correctly
+    // should print "ok"
 });
+
 ```
 
 ###List tasks
@@ -118,3 +120,7 @@ api.resources(function(err, res) {
 });
 
 ```
+
+
+#License
+This software is under [MPL 2.0 License](http://opensource.org/licenses/MPL-2.0) 
