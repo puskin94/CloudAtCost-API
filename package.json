@@ -1,6 +1,6 @@
 {
   "name": "cacapi",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "CloudAtCost API Wrapper",
   "main": "index.js",
   "scripts": {
